@@ -108,8 +108,13 @@ a {
      text-decoration: underline;
 }
 
-.ideas{
-    
+
+.footer{
+    word-spacing:250px;
+}
+
+.ideas {
+
     margin-left: 30px;
     margin-top: 50px;
     border: 1px solid black;
@@ -124,8 +129,3 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
 }
-
-.footer{
-    word-spacing:250px;
-}
-

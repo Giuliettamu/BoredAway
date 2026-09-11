@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/CSS-Sheets/formular.css">
-    <title>Document</title>
+    <title>Formular</title>
 </head>
 
 <body>
@@ -52,8 +52,25 @@
                                 <option value="Gestresst">Gestresst</option>
                                 <option value="Sehr Gut">Sehr Gut</option>
                             </select>
+
+                            <div class="areYou">
+                                <label for="areYou">Bist du alleine oder mit anderen?</label><br>
+                                <select name="areYou" id="areYou" required>
+                                    <option value="alone">Alleine</option>
+                                    <option value="with friends">Mit Freunden</option>
+                                </select>
+
+                                <div class="what">
+                                    <label for="drinnen">Drinnen</label>
+                                    <input type="radio" name="" id="drinnen" value="drinnen">
+                                    <label for="draussen">Natur</label>
+                                    <input type="radio" name="room" id="room" value="Natur">
+                                    <label for="kreatives">Kreatives</label>
+                                    <input type="radio" name="kreatives" id="kreatives" value="kreatives">
+                                </div>
+                            </div>
                         </div>
-                    </div>
+
                 </fieldset>
             </form>
         </main>
