@@ -50,8 +50,14 @@ aside {
     width: 500px;
 }
 
-aside p{
+aside p {
     font-size: 18px;
+    padding: 30px;
+}
+
+aside h1,
+h2 {
+    padding-left: 30px;
 }
 
 header {
@@ -81,11 +87,12 @@ header {
 }
 
 .tipp {
-    width: 100px;
-    height: 150px;
+    width: 600px;
+    height: auto;
     border-radius: 50px;
     background-color: white;
     border: var(--border);
+    padding-left: 20px;
 }
 
 .tipp-container {
@@ -94,7 +101,9 @@ header {
     justify-content: center;
     align-items: start;
     gap: 30px;
+    flex-wrap: wrap;
 }
+
 
 .first {
     margin-bottom: 40px;
@@ -109,7 +118,14 @@ a {
     text-decoration: underline;
 }
 
-.footer{
-    word-spacing:250px;
+.footer {
+    word-spacing: 250px;
 }
 
+img {
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 20px;
+}
