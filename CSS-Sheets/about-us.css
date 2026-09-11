@@ -21,7 +21,6 @@ body {
     border: var(--border);
 }
 
-
 nav {
     grid-area: nav;
     border: var(--border);
@@ -33,6 +32,7 @@ main {
     padding-left: 15px;
     text-align: start;
     border: var(--border);
+    overflow-y: auto;
 }
 
 footer {
@@ -108,3 +108,8 @@ a {
 .aboutus {
     text-decoration: underline;
 }
+
+.footer{
+    word-spacing:250px;
+}
+

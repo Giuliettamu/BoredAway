@@ -19,7 +19,6 @@ body {
     border: var(--border);
 }
 
-
 nav {
     grid-area: nav;
     border: var(--border);
@@ -31,6 +30,7 @@ main {
     padding-left: 15px;
     text-align: center;
     border: var(--border);
+    overflow-y: auto;
 }
 
 footer {
@@ -107,3 +107,25 @@ a {
 .friends{
      text-decoration: underline;
 }
+
+.ideas{
+    
+    margin-left: 30px;
+    margin-top: 50px;
+    border: 1px solid black;
+    width: 30%;
+    height: 200px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.ideas-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer{
+    word-spacing:250px;
+}
+

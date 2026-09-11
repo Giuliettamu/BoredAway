@@ -33,6 +33,7 @@ main {
     padding-left: 15px;
     text-align: center;
     border: var(--border);
+    overflow-y: auto;
 }
 
 footer {
@@ -113,3 +114,10 @@ a {
      text-decoration: underline;
 }
 
+.footer{
+    word-spacing:250px;
+}
+
+.tipp{
+    background-color: white;
+}

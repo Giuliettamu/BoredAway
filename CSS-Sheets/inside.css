@@ -1,6 +1,7 @@
 :root {
     --border: 1px solid black;
 }
+
 .container {
     display: grid;
     height: 100vh;
@@ -14,11 +15,11 @@
         "footer footer footer"
 
 }
+
 body {
     margin: 0;
     border: var(--border);
 }
-
 
 nav {
     grid-area: nav;
@@ -31,6 +32,7 @@ main {
     padding-left: 15px;
     text-align: center;
     border: var(--border);
+    overflow-y: auto;
 }
 
 footer {
@@ -95,8 +97,8 @@ header {
     gap: 20px;
 }
 
-.first{
-    margin-bottom:40px;
+.first {
+    margin-bottom: 40px;
 }
 
 a {
@@ -104,16 +106,16 @@ a {
     color: black;
 }
 
-.inside{
-    text-decoration:underline;
+.inside {
+    text-decoration: underline;
 }
 
-.ideas{
-    
+.ideas {
+
     margin-left: 30px;
     margin-top: 50px;
     border: 1px solid black;
-    width: 360px;
+    width: 30%;
     height: 200px;
     border-radius: 30px;
     background-color: white;
@@ -123,4 +125,8 @@ a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.footer {
+    word-spacing: 250px;
 }
