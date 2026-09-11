@@ -6,12 +6,12 @@
     display: grid;
     height: 100vh;
 
-    grid-template-columns: 150px 1fr 100px;
+    grid-template-columns: 150px auto 500px;
     grid-template-rows: auto 1fr 30px;
 
     grid-template-areas:
         "header header header"
-        "nav main main"
+        "nav main aside"
         "footer footer footer"
 
 }
@@ -31,7 +31,7 @@ main {
     grid-area: main;
     background-color: #F4ebe2;
     padding-left: 15px;
-    text-align: center;
+    text-align: start;
     border: var(--border);
 }
 
@@ -45,8 +45,13 @@ footer {
 
 aside {
     grid-area: aside;
-    padding-left: 15px;
+    background-color: #bb91a2;
     border: var(--border);
+    width: 500px;
+}
+
+aside p{
+    font-size: 18px;
 }
 
 header {
@@ -70,19 +75,13 @@ header {
     border: var(--border);
 }
 
-.aside {
-    background-color: #C2B280;
-    border: var(--border);
-}
-
-
 .nav p {
     margin-bottom: 20px;
 
 }
 
 .tipp {
-    width: 550px;
+    width: 100px;
     height: 150px;
     border-radius: 50px;
     background-color: white;
@@ -106,6 +105,6 @@ a {
     color: black;
 }
 
-.aboutus{
+.aboutus {
     text-decoration: underline;
 }
