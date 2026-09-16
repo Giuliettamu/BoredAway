@@ -16,36 +16,9 @@
 
 }
 
-body {
-    margin: 0;
-    border: var(--border);
-}
-
-nav {
-    grid-area: nav;
-    border: var(--border);
-}
-
-main {
-    grid-area: main;
-    background-color: #F4ebe2;
-    padding-left: 15px;
-    text-align: start;
-    border: var(--border);
-    overflow-y: auto;
-}
-
-footer {
-    grid-area: footer;
-    background-color: black;
-    color: white;
-    text-align: center;
-    border: var(--border);
-}
-
 aside {
     grid-area: aside;
-    background-color: #bb91a2;
+    background-color: #D98A6C;
     border: var(--border);
     width: 500px;
 }
@@ -60,66 +33,8 @@ h2 {
     padding-left: 30px;
 }
 
-header {
-    width: vh;
-    padding-left: 20px;
-    background-color: #F4ebe2;
-    grid-area: header;
-
-    font-family: Roboto, sans-serif;
-    letter-spacing: 15px;
-    text-align: center;
-    font-weight: bold;
-    font-size: 22px;
-    border: var(--border);
-}
-
-.nav {
-    background-color: #FFC5D3;
-    width: 150px;
-    padding-left: 15px;
-    border: var(--border);
-}
-
-.nav p {
-    margin-bottom: 20px;
-
-}
-
-.tipp {
-    width: 600px;
-    height: auto;
-    border-radius: 50px;
-    background-color: white;
-    border: var(--border);
-    padding-left: 20px;
-}
-
-.tipp-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: start;
-    gap: 30px;
-    flex-wrap: wrap;
-}
-
-
-.first {
-    margin-bottom: 40px;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
 .aboutus {
     text-decoration: underline;
-}
-
-.footer {
-    word-spacing: 250px;
 }
 
 img {

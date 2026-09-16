@@ -1,0 +1,27 @@
+@media (max-width: 600px) {
+    .container {
+        display: grid;
+
+        grid-template-columns: auto;
+        grid-template-rows: 100px 60px auto 50px;
+
+        grid-template-areas:
+            "header"
+            "nav"
+            "main"
+            "footer"
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-evenly;
+
+        flex-direction: row;
+    }
+
+    .ideas{
+        width: auto;
+        margin-right: 40px;
+    }
+
+}

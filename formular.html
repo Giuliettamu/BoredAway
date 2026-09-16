@@ -4,15 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/x-icon" href="Logo.png">
+
+    <link rel="stylesheet" href="/CSS-Sheets/style.css">
+    <link rel="stylesheet" href="/CSS-Sheets/media.css">
     <link rel="stylesheet" href="/CSS-Sheets/formular.css">
+
     <title>Formular</title>
 </head>
 
 <body>
+
+ 
+
+
     <div>
 
         <header class="header items">
-            <h1>BORED AWAY</h1>
+            <h1 class="title">BORED AWAY</h1>
         </header>
 
         <nav class="nav items">
@@ -35,41 +45,61 @@
             <div class="aboutus">
                 <a href="about-us.html">Über uns</a></p>
             </div>
+
+              <div>
+                    <p><a href="formular.html">Anmeldung Newsletter</a></p>
+                </div>
         </nav>
 
         <main class="main items">
-            <form>
-                <h1>Finde passende Ideen</h1>
+            <form action="https://blj-ict-bz.ch/formlog/" method="post">
+                <h1>Anmeldung Newsletter:</h1>
+                <h3>Willst du informiert werden wenn neue Ideen eintreffen? Melde dich hier an!</h3>
                 <fieldset>
                     <div>
 
-                        <div class="feel">
-                            <label for="feel">Wie fühlst du dich?</label><br>
-                            <select name="feel" id="feel" required>
-                                <option value="Müde/Rhuig">Müde/Rhuig</option>
-                                <option value="Voll mit Energie">Voll mit Energie</option>
-                                <option value="Kreativ">Kreativ</option>
-                                <option value="Gestresst">Gestresst</option>
-                                <option value="Sehr Gut">Sehr Gut</option>
-                            </select>
+            <div class ="Anrede">
+            <label for="Anrede">Anrede:</label>
+            <select name="Anrede" required>
+                <option value="Frau">Frau</option>
+                <option value="Herr">Herr</option>
+                <option value="Divers">Divers</option>
+            </select>
+            </div>
 
-                            <div class="areYou">
-                                <label for="areYou">Bist du alleine oder mit anderen?</label><br>
-                                <select name="areYou" id="areYou" required>
-                                    <option value="alone">Alleine</option>
-                                    <option value="with friends">Mit Freunden</option>
-                                </select>
 
-                                <div class="what">
-                                    <label for="drinnen">Drinnen</label>
-                                    <input type="radio" name="" id="drinnen" value="drinnen">
-                                    <label for="draussen">Natur</label>
-                                    <input type="radio" name="room" id="room" value="Natur">
-                                    <label for="kreatives">Kreatives</label>
-                                    <input type="radio" name="kreatives" id="kreatives" value="kreatives">
-                                </div>
-                            </div>
+
+                         <div class="Vorname">
+                           <label for="Vorname">Vorname:</label>
+                           <input type="text" name="Vorname" id="Vorname" required>
                         </div>
+
+                        <div class="Nachname">
+                           <label for="Nachname">Nachname:</label>
+                           <input type="text" name="Nachname" id="Nachname">
+                        </div>
+
+
+                         <div class="email">
+                         <label for="email-field">E-mail:</label>
+                          <input type="email" name="mail" id="email" required>
+                          </div>
+
+
+                           <div class="form-group">
+                              <input type="radio" name="newsletter_agree" id="agree_dsgvo" value="yes" required>
+                              <label for="agree_dsgvo">
+                              Ich habe die <a class="data" href="datenschutz.html">Datenschutzerklärung</a> gelesen und melde mich somit zum Newsletter an.
+                              </label>
+                           </div>
+
+
+                              <div >
+         <button class="button" type="submit">Formular absenden</button>
+         </div>
+ 
+                        </div>
+
 
                 </fieldset>
             </form>

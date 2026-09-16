@@ -39,7 +39,7 @@ main {
 footer {
     grid-area: footer;
     background-color: black;
-    color: white;
+    color:white; 
     text-align: center;
     border: var(--border);
 }
@@ -53,7 +53,7 @@ aside {
 header {
     width: vh;
     padding-left: 20px;
-    background-color: #F4ebe2;
+    background-color: rgb(148, 182, 196);
     grid-area: header;
 
     font-family: Roboto, sans-serif;
@@ -62,17 +62,23 @@ header {
     font-weight: bold;
     font-size: 22px;
     border: var(--border);
+
+    .img{
+    width:100px;
+    border-radius: 20%;
+    align-self: flex-start;
+}
 }
 
 .nav {
     background-color: #FFC5D3;
-    width: 150px;
+    width: auto;
     padding-left: 15px;
     border: var(--border);
 }
 
 .aside {
-    background-color: #C2B280;
+    background-color: #D4C5B3  ;
     border: var(--border);
 }
 
@@ -84,9 +90,10 @@ header {
 
 .tipp {
     width: 80%;
-    height: 200px;
+    height: auto;
     border-radius: 50px;
     background-color: #F4ebe2;
+    padding: 15px;
     border: var(--border);
        p{
         font-size:20px;
@@ -120,4 +127,21 @@ a {
 
 .tipp{
     background-color: white;
+}
+
+.img{
+    margin-top:10px;
+    position:absolute;
+    display: flex;
+    width:100px;
+    border-radius: 20%;
+    right:0;
+    top:0;
+    left:1000px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+.title {
+    font-family: 'Patrick Hand', cursive;
 }
