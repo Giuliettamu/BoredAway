@@ -2,12 +2,36 @@
     display: grid;
     height: 100vh;
 
-    grid-template-columns: 150px auto ;
-    grid-template-rows: 1fr auto 30px;
+    grid-template-columns: 150px 1fr 100px;
+    grid-template-rows: auto 1fr 30px;
 
     grid-template-areas:
-        "header header"
-        "nav main"
-        "footer footer"
+        "header header header"
+        "nav main main"
+        "footer footer footer"
 
 }
+
+footer {
+    display:flex;
+    justify-content: center;
+    gap:30px;
+    grid-area: footer;
+    background-color: black;
+    color:white; 
+    text-align: center;
+    border: var(--border);
+}
+
+div{
+    margin-bottom: 5px;
+}
+
+.nature {
+    width: 1300px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 20px;
+}
+

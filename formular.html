@@ -7,9 +7,9 @@
 
     <link rel="icon" type="image/x-icon" href="Logo.png">
 
-    <link rel="stylesheet" href="/CSS-Sheets/style.css">
-    <link rel="stylesheet" href="/CSS-Sheets/media.css">
-    <link rel="stylesheet" href="/CSS-Sheets/formular.css">
+    <link rel="stylesheet" href="CSS-Sheets/style.css">
+    <link rel="stylesheet" href="CSS-Sheets/media.css">
+    <link rel="stylesheet" href="CSS-Sheets/formular.css">
 
     <title>Formular</title>
 </head>
@@ -19,10 +19,11 @@
  
 
 
-    <div>
+    <div class="container">
 
         <header class="header items">
             <h1 class="title">BORED AWAY</h1>
+            <img class ="img" src="Logo.png" alt="Logo von unserer Website."/>
         </header>
 
         <nav class="nav items">
@@ -43,7 +44,7 @@
                 <p><a href="trends.html">Aktuelle Trends</a></p>
             </div>
             <div class="aboutus">
-                <a href="about-us.html">Über uns</a></p>
+                <a href="about-us.html">Über uns</a>
             </div>
 
               <div>
@@ -54,13 +55,13 @@
         <main class="main items">
             <form action="https://blj-ict-bz.ch/formlog/" method="post">
                 <h1>Anmeldung Newsletter:</h1>
-                <h3>Willst du informiert werden wenn neue Ideen eintreffen? Melde dich hier an!</h3>
+                <h2>Willst du informiert werden wenn neue Ideen eintreffen? Melde dich hier an!</h2>
                 <fieldset>
                     <div>
 
-            <div class ="Anrede">
-            <label for="Anrede">Anrede:</label>
-            <select name="Anrede" required>
+            <div class ="anrede">
+            <label for="anrede">Anrede:</label>
+            <select name="Anrede">
                 <option value="Frau">Frau</option>
                 <option value="Herr">Herr</option>
                 <option value="Divers">Divers</option>
@@ -81,7 +82,7 @@
 
 
                          <div class="email">
-                         <label for="email-field">E-mail:</label>
+                         <label for="email">E-mail:</label>
                           <input type="email" name="mail" id="email" required>
                           </div>
 
@@ -97,13 +98,27 @@
                               <div >
          <button class="button" type="submit">Formular absenden</button>
          </div>
- 
+
+
+         </form>
+
                         </div>
 
 
                 </fieldset>
-            </form>
+
+                <img src="natur.jpg" alt="Ein Bild der Natur" class="nature">
+
         </main>
+            <footer>
+                 <div>
+                    <p><a href="impressum.html">Impressum</a></p>
+                </div>
+                <div>
+                    <p><a href="datenschutz.html">Datenschutz</a></p>
+                </div>
+            </footer>
+
 
     </div>
 </body>

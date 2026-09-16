@@ -1,3 +1,6 @@
+:root {
+    --border: 1px solid black;
+}
 
 
 footer {
@@ -39,3 +42,6 @@ aside {
     border:none;
 }
 
+.nav, items{
+      border: var(--border);
+}

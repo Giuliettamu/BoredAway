@@ -37,6 +37,9 @@ main {
 }
 
 footer {
+    display:flex;
+    justify-content: center;
+    gap:30px;
     grid-area: footer;
     background-color: black;
     color:white; 
@@ -115,6 +118,17 @@ header {
 a {
     text-decoration: none;
     color: black;
+}
+
+a:hover{
+    color: rgb(186, 104, 118);
+}
+
+footer a {
+    position:relative;
+    top:-10px;
+    color: white;
+    text-decoration: none;
 }
 
 .home{
